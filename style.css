@@ -1,0 +1,47 @@
+*{background-color: black;
+color: white;
+
+}
+header{
+ 
+ background-color: #c23616;
+ height:200px ;
+ 
+}
+.par{
+    color: red;
+    font-size:50px;
+    font-weight: bolder;
+    margin:10px 30px 30px 500px;
+    
+}
+ 
+header nav ul li{
+  display: inline-block ;
+  margin-right: 30x;
+  border: solid 3px red;
+  font-size: 35px;
+  height:30px;
+  margin: 5px 20px 20px 150px ;
+  padding: 10px;
+  
+  
+
+}
+.bo{
+    margin: 20px 30px 5px 200px;
+   background-color: black;  
+  
+}
+  .ya{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size:20px;
+  background-color: #e84118;
+  font-weight: bold;
+  
+  }
+  .ew{
+      background-color: #e84118;
+      font-style: italic;
+      font-size: 25px;
+
+  }
