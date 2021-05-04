@@ -30,13 +30,13 @@ header nav ul li{
 }
 .bo{
     margin: 20px 30px 5px 200px;
-   background-color: black;  
+   background-color: rgb(red, green, rgb(9, 9, 41));  
   
 }
   .ya{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size:20px;
   background-color: #e84118;
-  font-weight: bold;
+ font-weight: bold;
   
   }
   .ew{
