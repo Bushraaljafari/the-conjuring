@@ -9,6 +9,12 @@ var userName ='bushra';
  var s ='4';
  alert(x+y+s);
 
+  var theConjuring=prompt('do you like this movie?');
+        while (theConjuring!=='yes' && theConjuring!=='no'){
+theConjuring=prompt('please answer only with yes or no');
+
+  }
+
  var age=prompt('whats your age?');
 alert('Here is a recommendation for a movie that suits your age')
 
@@ -27,6 +33,19 @@ else {
 
 
   }
+     
+
+     var loveHeart =prompt('last Question how many love Heart would you give my website');
+
+ for(var i=1;i<=loveHeart;i++){
+          document.write('<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Love_Heart_SVG.svg/645px-Love_Heart_SVG.svg.png" width="50px">') 
+         document.write('<h3>' +i +' </h3>')
+      }
+      
+       
+      
+      
+      
 
 
 
