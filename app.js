@@ -34,14 +34,36 @@ else {
 
   }
      
-
+/*
      var loveHeart =prompt('last Question how many love Heart would you give my website');
 
  for(var i=1;i<=loveHeart;i++){
           document.write('<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Love_Heart_SVG.svg/645px-Love_Heart_SVG.svg.png" width="50px">') 
          document.write('<h3>' +i +' </h3>')
-      }
+      }*/
       
+
+
+   var countLoveHeart =function(){
+    var loveHeart =prompt('last Question how many love Heart would you give my website');
+
+    var loveHeartResult='';
+
+     for(var i=1;i<=loveHeart;i++){
+        loveHeartResult=loveHeartResult+'<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Love_Heart_SVG.svg/645px-Love_Heart_SVG.svg.png" width="50px">';
+
+        loveHeartResult+=('<h3>' +i +' </h3>');}
+
+      return loveHeartResult;
+
+   }
+
+   function data(name,year,age){
+       
+       
+      console.log(name , year , age);
+   }
+  
        
       
       
